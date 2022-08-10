@@ -50,7 +50,9 @@ render() {
   
   return (
     <div className="App">
-      
+       <div className="app-title">
+        <h1>MonstERS Rolodex</h1>
+      </div>
       {/* { filteredMonsters.map((monster)=>{
         return<div key={monster.id}> 
         <h1 >{monster.name}</h1>

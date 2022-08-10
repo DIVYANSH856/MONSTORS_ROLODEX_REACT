@@ -5,6 +5,7 @@ class Cardlist extends Component {
     const { monsters }= this.props;
 
     return (
+    <div>
       <div className='card-list'>
       {monsters.map((monster)=>{
         const {name,email,id}=monster;
@@ -12,12 +13,13 @@ class Cardlist extends Component {
         <div className='card-container' key={id}>
           <img
            alt={`monsters${name}`} 
-           src={`https://robohash.org/${id}?set=set2&size=180x180`}/>
+           src={`https://robohash.org/${id}?set=set2&size=150x150`}/>
         <h2>{name}</h2>
         <h2>{email}</h2>
         </div>
         )} )
         }
+      </div>
       </div>
     );
   }

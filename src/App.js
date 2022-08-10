@@ -58,7 +58,7 @@ render() {
       })
       } */}
       <Searchbox 
-      className='search box'
+      className='monster-search-box'
       onChangeHandler={onSearchchange}
       placeholder='search-monsters' />
       <Cardlist monsters={filteredMonsters}
@@ -68,3 +68,4 @@ render() {
 }
 }
 export default App;
+ 
